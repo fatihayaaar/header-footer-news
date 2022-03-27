@@ -1,0 +1,135 @@
+#bodyProducts{
+    background-color: transparent;
+    width: 1150px;
+    padding: 20px;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.yakinda {
+    margin: 100px 0 100px 0;
+    text-align: center;
+    font-family: 'fonttext';
+    font-size: 52pt;
+    color: rgb(117, 117, 117);
+    transition: 0.5s;
+}
+#bodyProducts .slider {
+    margin: 0 auto 20px auto;
+    width: 100%;
+    height: 175px;
+    background-color: #fff;
+}
+#bodyProducts .products {
+    width: 1150px;
+    height: auto;
+}
+#bodyProducts .products .productDiv {
+    float: left;
+    width: 700px;
+}
+#bodyProducts .products .productDiv .product {
+    float: left;
+    position: relative;
+    margin: 0 20px 20px 0;
+    width: 330px;
+    background-color: #fff;
+}
+#bodyProducts .products .productDiv .product .categoryDiv {
+    margin: 10px 0 15px 20px;
+}
+#bodyProducts .products .productDiv .product .categoryDiv .category {
+    padding: 2px 4px 2px 4px;
+    font-size: 10pt;
+    font-family: 'fonttext';
+    color: rgb(128, 128, 128);
+    background-color: #f3f3f3;
+}
+#bodyProducts .products .productDiv .product .categoryDiv .category:hover {
+    color: #444;
+    text-decoration: underline;
+}
+#bodyProducts .products .productDiv .product .image {
+    display: block;
+    margin: auto auto 10px auto;
+    width: 100%;
+    height: 200px;
+    transition: 1s;
+}
+#bodyProducts .products .productDiv .product .image:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+}
+#bodyProducts .products .productDiv .product .head {
+    margin: 0 0 0 20px;
+    font-family: 'fonttext';
+    font-size: 20pt;
+    color: rgb(44, 44, 44);
+    transition: 1s;
+}
+#bodyProducts .products .productDiv .product .head:hover {
+    color: rgb(241, 64, 64);
+    text-decoration: underline;
+    transition: 1s; 
+}
+#bodyProducts .products .productDiv .product .explanation {
+    margin: 10px 10px 5px 20px;
+    font-size: 13pt;
+    color: rgb(104, 104, 104);
+}
+#bodyProducts .products .productsRight {
+    float: right;
+    width: 450px;
+    background-color: transparent;
+}
+#bodyProducts .products .productsRight .product {
+    position: relative;
+    margin-bottom: 1px;
+    padding: 10px;
+    width: 430px;
+    height: auto;
+    background-color: #fff;
+}
+#bodyProducts .products .productsRight .product .image {
+    margin: 0 15px 0 0;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+#bodyProducts .products .productsRight .product .image:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+}
+#bodyProducts .products .productsRight .product .head {
+    font-family: 'fonttext';
+    font-size: 17pt;
+    color: rgb(44, 44, 44);
+    transition: 1s;
+}
+#bodyProducts .products .productsRight .product .head:hover {
+    color: rgb(241, 64, 64);
+    text-decoration: underline;
+    transition: 1s; 
+}
+#bodyProducts .products .productsRight .product .explanation {
+    margin-top: 5px;
+    font-size: 12pt;
+    color: rgb(104, 104, 104);
+}
+#bodyProducts .products .productsRight .product .categoryDiv {
+    margin: 10px 0 0 0;
+}
+#bodyProducts .products .productsRight .product .categoryDiv .category {
+    padding: 2px 4px 2px 4px;
+    font-size: 10pt;
+    font-family: 'fonttext';
+    color: rgb(128, 128, 128);
+    background-color: #f3f3f3;
+}
+#bodyProducts .products .productsRight .product .categoryDiv .category:hover {
+    color: #444;
+    text-decoration: underline;
+}

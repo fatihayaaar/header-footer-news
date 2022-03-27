@@ -1,0 +1,36 @@
+#header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 3px 14px 1px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 4px 3px 14px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 4px 3px 14px 1px rgba(0, 0, 0, 0.05);
+}
+#header div.menu {
+    width: 1140px;
+    height: 60px;
+    margin: auto;
+}
+#header div.menu img {
+    height: 35px;
+    margin-top: 15px;
+    width: auto;
+    float: left;
+}
+#header div.menu ul {
+    float: right;
+}
+#header div.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+#header div.menu ul li a {
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    line-height: 60px;
+    font-family: 'font';
+    font-size: 15pt;
+}
+#header div.menu ul li a:hover {
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,156 @@
+#bodynews {
+    margin: 10px auto 40px auto;
+    padding: 0;
+    height: auto;
+    width: 1150px;
+    background-color: transparent;
+}
+#bodynews .slider {
+    margin: 20px auto 1px auto;
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+}
+#bodynews .news {
+    float: left;
+    width: auto;
+    height: auto;
+}
+#bodynews .news .head{
+    margin: 9px auto 10px auto;
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+}
+#bodynews .news .head h1 {
+    margin: 0 0 0 20px;
+    line-height: 35px;
+    font-family: 'fonttext';
+    font-size: 22pt;
+    color: rgb(70, 70, 70);
+    transition: 0.5s;
+}
+#bodynews .news .head h1:hover {
+    color: rgb(31, 31, 31);
+    transition: 0.5s;
+}
+#bodynews .news .hbr {
+    width: 750px;
+    height: auto;
+    background-color: #fff;
+}
+#bodynews .news .hbr img.haberimg {
+    float: left;
+    margin: 20px 30px 20px 20px;
+    width: 250px;
+    height: 250px;
+    transition: 1s;
+}
+#bodynews .news .hbr img.haberimg:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+}
+#bodynews .news .hbr .habericerigi {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 420px;
+}
+#bodynews .news .hbr .habericerigi a.kategori {
+    padding: 3px;
+    font-size: 13pt;
+    font-family: 'fonttext';
+}
+#bodynews .news .hbr .habericerigi a.kategori:hover {
+    text-decoration: underline;
+}
+#bodynews .news .hbr .habericerigi a.hbrhead {
+    font-family: 'fonttext';
+    font-size: 22pt;
+    color: rgb(44, 44, 44);
+    transition: 1s;
+}
+#bodynews .news .hbr .habericerigi a.hbrhead:hover {
+    color: rgb(241, 64, 64);
+    text-decoration: underline;
+    transition: 1s;
+}
+#bodynews .news .hbr .habericerigi p.hbraciklamasi {
+    margin-top: 10px;
+    font-size: 15pt;
+    color: rgb(104, 104, 104);
+}
+#bodynews .news .hbr .habericerigi .tarih {
+    margin: 10px auto auto auto;
+    font-size: 13pt;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(180, 180, 180);
+}
+#bodynews #etkinlikler {
+    float: right;
+    margin: 10px 0 10px 5px;
+    width: 390px;
+    height: auto;
+    background-color: transparent;
+}
+#bodynews #etkinlikler div.head {
+    margin: -1px auto auto auto;
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+}
+#bodynews #etkinlikler div.head h1 {
+    margin: auto auto auto 20px;
+    font-family: 'fonttext';
+    font-size: 24pt;
+    color: rgb(70, 70, 70);
+    transition: 0.5s;
+}
+#bodynews #etkinlikler div.head h1:hover {
+    color: rgb(31, 31, 31);
+    transition: 0.5s;
+}
+#bodynews #etkinlikler div.icerik {
+    margin: 10px auto 10px auto;
+    height: auto;
+    width: 100%;
+}
+#bodynews #etkinlikler div.icerik div {
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+    border: solid rgb(247, 247, 247);
+    border-width: 0 0 1px 0;
+}
+#bodynews #etkinlikler div.icerik div .icerikAciklamasi {
+    margin: 5px auto auto auto;
+    font-size: 15pt;
+    color: rgb(85, 85, 85);
+}
+#bodynews #etkinlikler div.icerik div a.baslik{
+    font-size: 16pt;
+    font-family: 'fonttext';
+    color: rgb(51, 51, 51);
+    transition: 0.5s;
+}
+#bodynews #etkinlikler div.icerik div a.baslik:hover {
+    color: rgb(241, 64, 64);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+#bodynews #etkinlikler div.icerik div .tarih {
+    margin: 10px auto 10px auto;
+    font-size: 13pt;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(180, 180, 180);
+}
+#bodynews #etkinlikler div.icerik div a.kategori {
+    line-height: 30px;
+    font-size: 12pt;
+    font-family: 'fonttext'
+}
+#bodynews #etkinlikler div.icerik div a.kategori:hover {
+    text-decoration: underline;
+}
